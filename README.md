@@ -6,5 +6,5 @@ result is an interpeter that can parse and evaluate simple Lisp code
 like:
 
 ```lisp
-(* (+ 1 2) (+3 4))
+(* (+ 1 2) (+ 3 4))
 ```
