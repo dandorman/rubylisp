@@ -1,0 +1,1 @@
+-I lib -I spec --format documentation --color

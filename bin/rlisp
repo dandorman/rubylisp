@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/lisp"
+
+repl = Lisp::REPL.new
+while true
+  print "> "
+  puts repl << gets.chomp
+end
